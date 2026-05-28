@@ -187,11 +187,11 @@ const Hero: React.FC = () => {
         <div style={fadeUp(200)} className="relative w-full">
 
           {/* Main image frame */}
-            <div className="relative w-full h-full min-h-[200px] lg:min-h-[300px] mx-auto lg:mx-0 lg:ml-auto rounded-2xl overflow-hidden shadow-2xl shadow-black/10 dark:shadow-black/40">            <Image
+            <div className="relative w-full max-w-full  mx-auto lg:mx-0 lg:ml-auto rounded-2xl overflow-hidden shadow-2xl shadow-black/10 dark:shadow-black/40">            <Image
               src={assets.hero_img}
               alt="Agency hero"
-              fill
-              className="object-cover"
+              full-width="true"
+              className="object-contain"
               priority
             />
             {/* Subtle overlay */}
@@ -199,7 +199,7 @@ const Hero: React.FC = () => {
           </div>
 
           {/* Floating badge — bottom right */}
-          <div className="absolute -right-4 bottom-12 hidden lg:flex items-center gap-3 bg-white dark:bg-gray-800 rounded-xl px-4 py-3 shadow-xl shadow-black/8 border border-gray-100 dark:border-gray-700">
+          <div className="absolute -right-4 bottom-2 hidden lg:flex items-center gap-3 bg-white dark:bg-gray-800 rounded-xl px-4 py-3 shadow-xl shadow-black/8 border border-gray-100 dark:border-gray-700">
             <div className="flex -space-x-2">
               {[1].map(i => (
                 <Image
@@ -213,7 +213,7 @@ const Hero: React.FC = () => {
             </div>
             <div className="flex flex-col">
               <span className="text-xs font-bold text-gray-900 dark:text-white leading-tight">50+ Happy Clients</span>
-              <span className="text-[11px] text-gray-400">★★★★★ rated</span>
+              <span className="text-[12px] text-orange-400">★★★★★ Rated</span>
             </div>
           </div>
 

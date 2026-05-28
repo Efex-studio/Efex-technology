@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Efex Technology",
-  description: "We build websites that drive business growth and deliver measurable results.",
+  description: "We build  websites that drive business growth and deliver measurable results.",
 };
 
 export default function RootLayout({

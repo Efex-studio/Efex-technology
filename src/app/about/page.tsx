@@ -1,13 +1,11 @@
-'use client'
+"use client"
 
 import React, { useState } from 'react'
-import Navbar from './components/navbar'
-import ThemeToggleBtn from './components/themeToggleBtn'
-import Hero from './components/hero'
-import About from './components/about'
-import Services from './components/services'
+import About from '../components/about'
+import Navbar from '../components/navbar'
+import ThemeToggleBtn from '../components/themeToggleBtn'
 
-export default function Home() {
+export default function AboutPage() {
   const [theme, setTheme] = useState<'light' | 'dark' | null>(null)
 
   return (
@@ -17,9 +15,10 @@ export default function Home() {
       <div className="fixed bottom-6 right-6 z-50">
         <ThemeToggleBtn theme={theme} setTheme={setTheme} />
       </div>
-      <Hero />
-      <About />
-      <Services />
+
+      <main>
+        <About />
+      </main>
     </div>
   )
 }

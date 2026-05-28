@@ -71,7 +71,7 @@ const Navbar: React.FC<NavbarProps> = ({ theme, setTheme }) => {
               key={href}
               href={href}
               className={`
-                relative hover:text-red-500 transition-colors duration-200
+                relative hover:text-orange-400 transition-colors duration-200
                 after:absolute after:-bottom-1 after:left-0
                 after:h-[2px] after:bg-blue-500 after:rounded-full
                 after:transition-all after:duration-300

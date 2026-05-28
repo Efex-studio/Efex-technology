@@ -4,6 +4,7 @@ import group_profile from './group_profile.png'
 import bgImage1 from './bgImage1.png'
 import bgImage2 from './bgImage2.png'
 import hero_img from './hero_img.png'
+import about_img from './about_img.jpg'
 import microsoft_logo from './microsoft_logo.png'
 import zoom_logo from './zoom_logo.png'
 import rakuten_logo from './rakuten_logo.png'
@@ -47,6 +48,7 @@ const assets = {
   bgImage1,
   bgImage2,
   hero_img,
+  about_img,
   ads_icon,
   content_icon,
   marketing_icon,
