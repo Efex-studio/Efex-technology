@@ -8,16 +8,16 @@ import {
 
 const Services = () => {
   return (
-    <section className="py-24">
+    <section className="py-24 bg-gradient-to-b from-blue-950 to-blue-800">
       <div className="px-4 sm:px-12 lg:px-24 xl:px-40 mb-12">
-        <div className="inline-flex items-center gap-1 text-xs font-semibold uppercase tracking-[0.2em] text-blue-500">
+        <div className="inline-flex items-center gap-1 text-xs font-semibold uppercase tracking-[0.2em] text-blue-300">
           <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse" />
           Services
         </div>
-        <h2 className="mt-4 text-4xl sm:text-5xl font-bold leading-[1.1] tracking-tight text-gray-900 dark:text-white">
+        <h2 className="mt-4 text-4xl sm:text-5xl font-bold leading-[1.1] tracking-tight text-white">
           What We Offer to Grow Your Brand
         </h2>
-        <p className="mt-5 text-gray-600 max-w-2xl">
+        <p className="mt-5 text-blue-100 max-w-2xl">
           We offer a range of digital services designed to grow your business
           online.
         </p>

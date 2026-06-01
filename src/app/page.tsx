@@ -1,25 +1,24 @@
-'use client'
-
-import React, { useState } from 'react'
-import Navbar from './components/navbar'
-import ThemeToggleBtn from './components/themeToggleBtn'
+import React from 'react'
+import NavbarShell from './components/navbarShell'
 import Hero from './components/hero'
 import About from './components/about'
 import Services from './components/services'
+import Projects from './components/projects'
+import Contact from './components/contact'
+import CTA from './components/cta'
+import Footer from './components/footer'
 
 export default function Home() {
-  const [theme, setTheme] = useState<'light' | 'dark' | null>(null)
-
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 transition-colors duration-300">
-      <Navbar theme={theme as 'light' | 'dark'} setTheme={setTheme} />
-
-      <div className="fixed bottom-6 right-6 z-50">
-        <ThemeToggleBtn theme={theme} setTheme={setTheme} />
-      </div>
+      <NavbarShell />
       <Hero />
       <About />
       <Services />
+      <Projects />
+      <Contact />
+      <CTA />
+      <Footer />
     </div>
   )
 }
