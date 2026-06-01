@@ -101,7 +101,8 @@ const Projects = () => {
                   src={project.image}
                   alt={project.title}
                   fill
-                  className="object-cover"
+                  className="object-cover w-full h-full"
+                  style={{ width: '100%', height: '100%' }}
                 />
               </div>
               <div className="space-y-4 p-6 text-left">

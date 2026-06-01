@@ -2,6 +2,8 @@
 
 import { JSX } from "react";
 import Image from "next/image";
+import myimg from '../../assets/myimg.png'
+import showcase from '../../assets/showcase.jpg'
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -230,7 +232,7 @@ export function ResumeSection(): JSX.Element {
           <div className="flex-shrink-0 w-full md:w-auto flex justify-center">
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-blue-600 shadow-2xl">
               <Image
-                src="/img/testimonials/myimg.png"
+                src={myimg}
                 alt="Aninweze Emeka Felix"
                 width={320}
                 height={320}
@@ -500,7 +502,7 @@ export function CareerObjectivesSection(): JSX.Element {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-10 items-center">
         <div className="w-full md:w-1/2 flex-shrink-0">
           <Image
-            src="/img/portfolio/showcase.jpg"
+            src={showcase}
             alt="Showcase"
             width={1200}
             height={700}

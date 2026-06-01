@@ -1,4 +1,6 @@
 import Image from 'next/image'
+import logoLight from '../../assets/logo.svg'
+import logoDark from '../../assets/logo_dark.svg'
 
 const Footer = () => {
   return (
@@ -9,8 +11,8 @@ const Footer = () => {
           <div className="flex flex-wrap gap-8 lg:justify-between lg:gap-0">
             <div className="w-1/2 lg:w-1/4">
               <a href="/" className="relative">
-                <Image width={110} height={80} src="/images/logo/logo-light.svg" alt="Logo" className="dark:hidden" />
-                <Image width={110} height={80} src="/images/logo/logo-dark.svg" alt="Logo" className="hidden dark:block" />
+                <Image width={110} height={80} src={logoLight} alt="Logo" className="dark:hidden" />
+                <Image width={110} height={80} src={logoDark} alt="Logo" className="hidden dark:block" />
               </a>
 
               <p className="mb-10 mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -24,10 +26,10 @@ const Footer = () => {
                 <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">Quick Links</h4>
 
                 <ul>
-                  <li><a href="#" className="mb-3 inline-block hover:text-primary">Home</a></li>
-                  <li><a href="#" className="mb-3 inline-block hover:text-primary">Product</a></li>
-                  <li><a href="#" className="mb-3 inline-block hover:text-primary">Careers</a></li>
-                  <li><a href="#" className="mb-3 inline-block hover:text-primary">Pricing</a></li>
+                  <li><a href="/" className="mb-3 inline-block hover:text-primary">Home</a></li>
+                  <li><a href="/services" className="mb-3 inline-block hover:text-primary">Services</a></li>
+                  <li><a href="/portfolio" className="mb-3 inline-block hover:text-primary">Portfolio</a></li>
+                  <li><a href="/projects" className="mb-3 inline-block hover:text-primary">Projects</a></li>
                 </ul>
               </div>
 
@@ -35,10 +37,10 @@ const Footer = () => {
                 <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">Support</h4>
 
                 <ul>
-                  <li><a href="#" className="mb-3 inline-block hover:text-primary">Company</a></li>
-                  <li><a href="#" className="mb-3 inline-block hover:text-primary">Press media</a></li>
-                  <li><a href="#" className="mb-3 inline-block hover:text-primary">Our Blog</a></li>
-                  <li><a href="#" className="mb-3 inline-block hover:text-primary">Contact Us</a></li>
+                  <li><a href="/about" className="mb-3 inline-block hover:text-primary">About</a></li>
+                  <li><a href="/about" className="mb-3 inline-block hover:text-primary">Press</a></li>
+                  <li><a href="/portfolio" className="mb-3 inline-block hover:text-primary">Blog</a></li>
+                  <li><a href="/contact" className="mb-3 inline-block hover:text-primary">Contact Us</a></li>
                 </ul>
               </div>
 
@@ -65,8 +67,8 @@ const Footer = () => {
           <div>
             <ul className="flex items-center gap-8">
               <li><a href="#" className="hover:text-primary">English</a></li>
-              <li><a href="#" className="hover:text-primary">Privacy Policy</a></li>
-              <li><a href="#" className="hover:text-primary">Support</a></li>
+              <li><a href="/about" className="hover:text-primary">Privacy Policy</a></li>
+              <li><a href="/contact" className="hover:text-primary">Support</a></li>
             </ul>
           </div>
 
