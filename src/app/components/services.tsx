@@ -8,7 +8,7 @@ import {
 
 const Services = () => {
   return (
-    <section className="py-24 bg-gradient-to-r from-blue-600 via-blue-500 to-blue-800">
+    <section className="py-24 bg-gradient-to-r from-blue-950 via-blue-800 to-blue-700">
       <div className="px-4 sm:px-12 lg:px-24 xl:px-40 mb-12">
         <div className="inline-flex items-center gap-1 text-xs font-semibold uppercase tracking-[0.2em] text-blue-300">
           <span className="w-1.5 h-1.5 rounded-full bg-primary animate-pulse" />

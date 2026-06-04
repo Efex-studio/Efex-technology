@@ -60,15 +60,18 @@ const About: React.FC = () => {
           </div>
 
           {/* Body text */}
-          <div style={fadeUp(300)} className="flex flex-col gap-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
+          <div style={fadeUp(300)} className="flex flex-col gap-4 text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
             <p>
-              We are a full-service creative agency helping brands grow through
-              thoughtful design, smart strategy, and technology that works.
-              Founded in 2012, we have partnered with startups and enterprises alike
-              to deliver results that matter.
-              <br /><br />
-              Our team of designers, developers, and strategists bring a shared
-              obsession with quality and a track record to prove it.
+              We are a results-driven creative and digital solutions agency dedicated to helping 
+              businesses build strong brands, enhance their online presence, and achieve 
+              sustainable growth. Through a strategic blend of innovative design, modern 
+              technology, and data-driven marketing, we deliver solutions that create 
+              measurable impact.
+              <br/><br/>
+              Our team of experienced designers, developers, and digital strategists is committed 
+              to excellence, combining creativity with technical expertise to deliver high-quality
+               results.
+
             </p>
           </div>
         </div>

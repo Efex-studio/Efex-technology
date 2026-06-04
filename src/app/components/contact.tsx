@@ -55,16 +55,16 @@ const Contact: React.FC = () => {
             <h2 className="mb-12.5 text-3xl font-semibold text-black dark:text-white xl:text-sectiontitle2">Find us</h2>
 
             <div className="5 mb-7">
-              <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">Our Loaction</h3>
-              <p>290 Maryam Springs 260, Courbevoie, Paris, France</p>
+              <h3 className="mb-4 text-metatitle3 font-medium text-blue-700 dark:text-white">Our Loaction</h3>
+              <p>Asaba Delta State, Nigeria</p>
             </div>
             <div className="5 mb-7">
-              <h3 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">Email Address</h3>
-              <p><a href="#">yourmail@domainname.com</a></p>
+              <h3 className="mb-4 text-metatitle3 font-medium text-blue-700 dark:text-white">Email Address</h3>
+              <p><a href="mailto:aninwezeemekafelix@gmail.com">aninwezeemekafelix@gmail.com</a></p>
             </div>
             <div>
-              <h4 className="mb-4 text-metatitle3 font-medium text-black dark:text-white">Phone Number</h4>
-              <p><a href="#">+009 42334 6343 843</a></p>
+              <h4 className="mb-4 text-metatitle3 font-medium text-blue-700 dark:text-white">Phone Number</h4>
+              <p><a href="tel:+2348169910462">+2348169910462</a></p>
             </div>
           </div>
         </div>

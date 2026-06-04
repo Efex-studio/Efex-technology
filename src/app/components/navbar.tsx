@@ -57,9 +57,9 @@ const Navbar: React.FC<NavbarProps> = ({ theme, setTheme }) => {
         <Link href="/" aria-label="Home">
           <Image
             src={theme === 'dark' ? assets.logo_dark : assets.logo}
-            width={160}
-            height={40}
-            className="w-32 sm:w-40 mr-10"
+            width={180}
+            height={48}
+            className="w-36 sm:w-44 mr-10"
             alt="logo"
           />
         </Link>

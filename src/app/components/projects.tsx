@@ -5,7 +5,7 @@ import livingspring from '../../assets/livingspring.jpg'
 import shalom from '../../assets/shalom.jpg'
 import hannettedu from '../../assets/hannettedu.jpg'
 import josifex from '../../assets/josifex.png'
-import quanxi from '../../assets/quanxi.png'
+import jojet from '../../assets/jojet.png'
 import empireluxury from '../../assets/empireluxury.jpg'
 import hannettevent from '../../assets/hannettevent.jpg'
 
@@ -60,11 +60,11 @@ const PROJECTS: Project[] = [
     href: 'https://josifex.com.ng',
   },
   {
-    title: 'Quanxi Limited',
+    title: 'Jojet Business Solutions',
     description:
-      'An Abuja-based company that specializes in the sales of high-quality tractors and farm implements like farm trawlers and ridgers.',
-    image: quanxi,
-    href: 'https://efex-tech.github.io/Quanxilimited/index.html',
+      'A Uk Based accounting firm that provides various financial services to individuals and businesses.',
+    image: jojet,
+    href: 'https://jojetbussolutions.co.uk',
   },
   {
     title: 'Empire Luxury Collection',
