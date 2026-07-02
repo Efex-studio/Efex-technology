@@ -5,6 +5,30 @@
   --foreground: #171717;
 }
 
+html.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+.whatsapp-left {
+  position: fixed !important;
+  top: 22% !important;
+  left: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  transform: translateY(-50%) !important;
+  z-index: 50 !important;
+}
+
+.floating-whatsapp {
+  pointer-events: none !important;
+}
+
+.floating-whatsapp .floating-whatsapp-button,
+.floating-whatsapp .floating-whatsapp-chatbox {
+  pointer-events: auto !important;
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);

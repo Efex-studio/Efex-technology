@@ -29,10 +29,14 @@ export default function WhatsappChat() {
       notification
       notificationSound
       darkMode={false}
+      className="whatsapp-left"
       style={{
         position: "fixed",
-        bottom: isMobile ? "1.5rem" : "400px",
+        top: "50%",
+        bottom: "auto",
         left: "1.5rem",
+        transform: "translateY(-50%)",
+        right: "auto",
         zIndex: 50,
       }}
     />
