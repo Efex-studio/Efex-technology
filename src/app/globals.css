@@ -39,6 +39,16 @@ html.dark {
     right: 10px !important;
   }
 }
+
+/* Ensure touch/clicks register on small screens */
+@media (max-width: 640px) {
+  .whatsapp-widget {
+    pointer-events: auto !important;
+  }
+  .whatsapp-widget * {
+    pointer-events: auto !important;
+  }
+}
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);

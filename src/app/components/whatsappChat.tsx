@@ -9,7 +9,7 @@ export default function WhatsappChat() {
       <FloatingWhatsApp
         phoneNumber="+2348169910462"
         accountName="Efex Technology"
-        avatar={groupProfile}
+        avatar={groupProfile.src ?? groupProfile}
         statusMessage="Typically replies within a few minutes"
         chatMessage="👋 Hello! How can we help you today?"
         placeholder="Type your message..."
