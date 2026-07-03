@@ -40,7 +40,7 @@ html.dark {
 @media (max-width: 640px) {
   .whatsapp-widget {
     top: auto !important;
-    bottom: 20px !important;
+    bottom: 84px !important;
     right: 20px !important;
     transform: none !important;
     z-index: 100000 !important;
@@ -50,7 +50,7 @@ html.dark {
 /* Very small screens keep same offset */
 @media (max-width: 420px) {
   .whatsapp-widget {
-    bottom: 16px !important;
+    bottom: 76px !important;
     right: 16px !important;
   }
 }
