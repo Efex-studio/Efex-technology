@@ -111,7 +111,11 @@ const Navbar: React.FC<NavbarProps> = ({ theme, setTheme }) => {
             className="w-8 md:hidden"
           >
             <Image
-              src={sidebarOpen ? assets.close_icon : assets.menu_icon}
+              src={
+                sidebarOpen
+                  ? (theme === 'dark' ? assets.close_icon : assets.close_icon_light)
+                  : (theme === 'dark' ? assets.menu_icon_dark : assets.menu_icon)
+              }
               width={20}
               height={20}
               alt=""
@@ -151,6 +155,18 @@ const Navbar: React.FC<NavbarProps> = ({ theme, setTheme }) => {
         `}
         aria-label="Mobile navigation"
       >
+        <button
+          aria-label="Close menu"
+          onClick={closeSidebar}
+          className="absolute top-4 right-4 w-8"
+        >
+          <Image
+            src={theme === 'dark' ? assets.close_icon : assets.close_icon_light}
+            width={20}
+            height={20}
+            alt="Close menu"
+          />
+        </button>
         {navLinks.map(({ label, href }) => (
           <Link
             key={href}

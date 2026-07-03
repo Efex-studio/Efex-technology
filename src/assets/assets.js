@@ -15,6 +15,7 @@ import marketing_icon from './marketing_icon.svg'
 import social_icon from './social_icon.svg'
 import menu_icon from './menu_icon.svg'
 import close_icon from './close_icon.svg'
+import close_icon_light from './close_icon_light.svg'
 import work_mobile_app from './work_mobile_app.png'
 import work_fitness_app from './work_fitness_app.png'
 import work_dashboard_management from './work_dashboard_management.png'
@@ -55,6 +56,7 @@ const assets = {
   social_icon,
   menu_icon,
   close_icon,
+  close_icon_light,
   work_mobile_app,
   work_fitness_app,
   work_dashboard_management,

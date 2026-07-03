@@ -11,7 +11,7 @@ export default function WhatsappChat() {
       <FloatingWhatsApp
         phoneNumber="+2348169910462"
         accountName="Efex Technology"
-        avatar="/favicon.svg"
+        avatar="/icon.png"
         statusMessage="Typically replies within a few minutes"
         chatMessage="👋 Hello! How can we help you today?"
         placeholder="Type your message..."
