@@ -1,7 +1,7 @@
 "use client";
 
 import { FloatingWhatsApp } from "react-floating-whatsapp";
-import groupProfile from '../../assets/group_profile.png'
+import iconImg from '../icon.png'
 
 export default function WhatsappChat() {
   return (
@@ -9,7 +9,7 @@ export default function WhatsappChat() {
       <FloatingWhatsApp
         phoneNumber="+2348169910462"
         accountName="Efex Technology"
-        avatar={groupProfile.src ?? groupProfile}
+        avatar={iconImg.src ?? iconImg}
         statusMessage="Typically replies within a few minutes"
         chatMessage="👋 Hello! How can we help you today?"
         placeholder="Type your message..."
