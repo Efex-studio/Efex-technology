@@ -17,32 +17,44 @@ html.dark {
     top: calc(50% + 300px) !important;
     right: 20px !important;
     transform: translateY(-50%) !important;
-    z-index: 9999 !important;
+    z-index: 99999 !important;
     width: fit-content !important;
     height: fit-content !important;
     pointer-events: auto !important;
+    touch-action: manipulation !important;
+}
+
+.whatsapp-widget,
+.whatsapp-widget * {
+    pointer-events: auto !important;
+    touch-action: manipulation !important;
+}
+
+.whatsapp-widget .styles-module_whatsappButton__tVits,
+.whatsapp-widget .styles-module_whatsappChatBox__MdQ5U,
+.whatsapp-widget .styles-module_floatingWhatsapp__yWF5K {
+    z-index: 100000 !important;
 }
 
 /* Responsive adjustments for small screens */
 @media (max-width: 640px) {
   .whatsapp-widget {
-    top: calc(50% + 300px) !important;
+    top: auto !important;
+    bottom: 20px !important;
     right: 20px !important;
-    transform: translateY(-50%) !important;
-    z-index: 9999 !important;
+    transform: none !important;
+    z-index: 100000 !important;
   }
 }
 
 /* Very small screens keep same offset */
 @media (max-width: 420px) {
   .whatsapp-widget {
-    top: calc(50% + 300px) !important;
-    right: 20px !important;
+    bottom: 16px !important;
+    right: 16px !important;
   }
 }
 
-/* Ensure touch/clicks register on small screens */
-/* pointer-events enabled globally on the widget; no extra mobile-only rules needed */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
