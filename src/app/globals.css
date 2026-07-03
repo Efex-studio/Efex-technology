@@ -13,16 +13,31 @@ html.dark {
 .whatsapp-widget {
     position: fixed !important;
     left: auto !important;
-    bottom:auto !important;
-
-    top: auto !important;
-    right: auto !important;
-    transform: none !important;
-
-    z-index: 999 !important;
-
+    bottom: auto !important;
+    top: 50% !important;
+    right: 20px !important;
+    transform: translateY(-50%) !important;
+    z-index: 9999 !important;
     width: fit-content !important;
     height: fit-content !important;
+}
+
+/* Responsive adjustments for small screens */
+@media (max-width: 640px) {
+  .whatsapp-widget {
+    top: calc(50% + 80px) !important;
+    right: 12px !important;
+    transform: translateY(-50%) !important;
+    z-index: 9999 !important;
+  }
+}
+
+/* Slightly higher on very small screens to avoid overlap with fixed bottom UI */
+@media (max-width: 420px) {
+  .whatsapp-widget {
+    top: calc(50% + 60px) !important;
+    right: 10px !important;
+  }
 }
 @theme inline {
   --color-background: var(--background);
