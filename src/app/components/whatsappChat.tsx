@@ -5,7 +5,7 @@ import iconImg from '../icon.png'
 
 export default function WhatsappChat() {
   return (
-    <div className="whatsapp-widget pointer-events-none z-50">
+    <div className="whatsapp-widget z-50">
       <FloatingWhatsApp
         phoneNumber="+2348169910462"
         accountName="Efex Technology"

@@ -20,6 +20,7 @@ html.dark {
     z-index: 9999 !important;
     width: fit-content !important;
     height: fit-content !important;
+    pointer-events: auto !important;
 }
 
 /* Responsive adjustments for small screens */
@@ -41,14 +42,7 @@ html.dark {
 }
 
 /* Ensure touch/clicks register on small screens */
-@media (max-width: 640px) {
-  .whatsapp-widget {
-    pointer-events: auto !important;
-  }
-  .whatsapp-widget * {
-    pointer-events: auto !important;
-  }
-}
+/* pointer-events enabled globally on the widget; no extra mobile-only rules needed */
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
