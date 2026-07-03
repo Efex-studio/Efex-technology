@@ -14,7 +14,7 @@ html.dark {
     position: fixed !important;
     left: auto !important;
     bottom: auto !important;
-    top: 450px!important;
+    top: 400px!important;
     right: -12px !important;
     transform: translateY(-50%) !important;
     z-index: 99999 !important;
