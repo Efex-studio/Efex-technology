@@ -63,10 +63,6 @@ const Contact: React.FC = () => {
     <section id="support" className="px-4 md:px-8 2xl:px-0">
       <div className="relative mx-auto max-w-c-1390 px-7.5 pt-10 lg:px-15 lg:pt-15 xl:px-20 xl:pt-20">
         <div className="absolute left-0 top-0 -z-1 h-2/3 w-full rounded-lg bg-linear-to-t from-transparent to-[#dee7ff47] dark:bg-linear-to-t dark:to-[#252A42]"></div>
-        <div className="absolute bottom-[-255px] left-0 -z-1 h-full w-full">
-          <Image src="/images/shape/shape-dotted-light.svg" alt="Dotted" className="dark:hidden" fill />
-          <Image src="/images/shape/shape-dotted-dark.svg" alt="Dotted" className="hidden dark:block" fill />
-        </div>
 
         <div className="flex flex-col-reverse flex-wrap gap-8 md:flex-row md:flex-nowrap md:justify-between xl:gap-20">
           <div className="animate_top w-full rounded-lg bg-white p-7.5 shadow-solid-8 dark:border dark:border-strokedark dark:bg-black md:w-3/5 lg:w-3/4 xl:p-15">
