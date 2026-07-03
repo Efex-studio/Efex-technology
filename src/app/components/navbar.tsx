@@ -186,7 +186,7 @@ const Navbar: React.FC<NavbarProps> = ({ theme, setTheme }) => {
         <Link
           href="/contact"
           onClick={closeSidebar}
-          className="mt-4 flex items-center justify-center gap-2 bg-primary text-white px-6 py-3 rounded-full hover:scale-105 transition-all duration-200 text-sm font-medium"
+          className="mt-4 flex items-center justify-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-300 hover:text-black hover:scale-105 transition-all duration-200 text-sm font-medium"
         >
           Connect
           <Image src={assets.arrow_icon} width={12} height={12} alt="" />
