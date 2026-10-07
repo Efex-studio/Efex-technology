@@ -36,7 +36,6 @@ html.dark {
     z-index: 100000 !important;
 }
 
-<<<<<<< HEAD
 /* Responsive adjustments for small screens */
 @media (max-width: 640px) {
   .whatsapp-widget {
