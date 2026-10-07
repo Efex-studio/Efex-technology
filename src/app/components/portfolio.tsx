@@ -127,9 +127,9 @@ export function ResumeSection(): JSX.Element {
 
           <div className="flex w-full flex-col items-center justify-center text-center md:text-center">
             <p className="mb-1 text-lg font-semibold text-blue-600">Aninweze Emeka Felix</p>
-            <h2 className="mb-6 text-4xl font-bold text-gray-900 md:text-5xl">Website Developer</h2>
-            <p className="mx-auto mb-4 max-w-lg text-sm text-gray-600 leading-relaxed">Hi glad to meet you, i am a website developer with over five years experience in Website design technologies such as, html, css, javascript, bootsrap, wordpress, react js, Next js and express js. my skill set also includes: digital marketing, social media management and graphics design.</p>
-            <p className="mx-auto mb-6 max-w-lg text-sm text-gray-600 leading-relaxed">These couple of years, i ve offered my services to various brands across nigeria and beyond, helping them build and maintain a viable online presence. Check out some of my recent jobs on the Projects section, connect with me on social media.</p>
+            <h3 className="mb-6 text-4xl font-bold text-gray-900 md:text-5xl">Website Developer / Social Media Manager</h3>
+            <p className="mx-auto mb-4 max-w-lg text-sm text-gray-600 leading-relaxed">Hi glad to meet you, i am a website developer and social media manager, with over five years experience in social media management and Website design technologies such as, html, css, javascript, bootstrap, wordpress, react js, Next js and express js. my skill set also includes: digital marketing and graphics design.</p>
+            <p className="mx-auto mb-6 max-w-lg text-sm text-gray-600 leading-relaxed">These couple of years, i ve offered my services to various brands across nigeria, UK and India, helping them build and maintain a viable online presence. Check out some of my recent jobs on the Projects section. <br></br> connect with me on social media.</p>
 
             <ul className="mb-7 flex list-none flex-wrap justify-center gap-4 p-0 md:justify-start">
               {SOCIAL_LINKS.map((s: SocialLink) => {
