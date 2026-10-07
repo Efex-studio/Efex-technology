@@ -26,7 +26,7 @@ export default function BackToTop() {
           behavior: "smooth",
         })
       }
-      className="fixed bottom-24 right-6 z-50 rounded-full bg-blue-600 p-4 text-white shadow-lg hover:bg-blue-700 transition-colors duration-200"
+      className="fixed bottom-28 right-5 z-40 rounded-full bg-blue-600 p-4 text-white shadow-lg transition-colors duration-200 hover:bg-blue-700 sm:bottom-24"
       aria-label="Scroll to top"
     >
       <ChevronUp size={22} />

@@ -7,16 +7,41 @@ import hannettedu from '../../assets/hannettedu.jpg'
 import josifex from '../../assets/josifex.png'
 import jojet from '../../assets/jojet.png'
 import empireluxury from '../../assets/empireluxury.jpg'
+import educonsult from '../../assets/educonsult.png'
 import hannettevent from '../../assets/hannettevent.jpg'
+import saviour from '../../assets/saviour.png'
+import onetoone from '../../assets/onetoone.png'
+import deltahospital from '../../assets/deltahospital.png'
 
 interface Project {
   title: string
   description: string
-  image: StaticImageData
+  image: StaticImageData | string
   href: string
 }
 
 const PROJECTS: Project[] = [
+   {
+    title: 'delta Hospital India',
+    description:
+      'An indian hospital website with fully functional hospital management system, built with wordpress on the frontend and laravel php on the backend, features includes appointment booking, patients management and others .',
+    image: deltahospital,
+    href: 'https://deltahospitals.co.in/',
+  },
+   {
+    title: 'one to one learning Academy',
+    description:
+      'An online Uk based Forex Trading Academy that offers forex trading training and mentorship, with a Branch in india.',
+    image: onetoone,
+    href: 'http://1to1learningacademy.com',
+  },
+   {
+    title: 'Saviour Interior & Services LTD',
+    description:
+      'A UK-based interior design and building finishing services company, that specializes in all kinds of building finishing and interior design services.',
+    image: saviour,
+    href: 'https://saviour24.co.uk',
+  },
   {
     title: 'Bnb Food Essentials LTD',
     description:
@@ -74,6 +99,13 @@ const PROJECTS: Project[] = [
     href: 'https://empireluxurycollection.com.ng',
   },
   {
+    title: 'Living Spring Edu-consult',
+    description:
+      'Landing Page for A Uk Based Education consulting agency offering Advisory services to African students, who are seeking to study medical courses in the UK.',
+    image: educonsult,
+    href: 'https://livingspring.ng/edu-consult/',
+  },
+  {
     title: 'Hannett Ventures Global LTD',
     description:
       'An event planning and management agency that provides event decoration services, rentals and catering services.',
@@ -97,13 +129,21 @@ const Projects = () => {
               className="overflow-hidden rounded-3xl border border-white/10 bg-white/5 shadow-xl shadow-black/10 transition hover:-translate-y-1 hover:bg-white/10"
             >
               <div className="relative h-64 w-full">
-                <Image
-                  src={project.image}
-                  alt={project.title}
-                  fill
-                  className="object-cover w-full h-full"
-                  style={{ width: '100%', height: '100%' }}
-                />
+                {typeof project.image === 'string' ? (
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="h-full w-full object-cover"
+                  />
+                ) : (
+                  <Image
+                    src={project.image}
+                    alt={project.title}
+                    fill
+                    className="object-cover w-full h-full"
+                    style={{ width: '100%', height: '100%' }}
+                  />
+                )}
               </div>
               <div className="space-y-4 p-6 text-left">
                 <h3 className="text-xl font-semibold text-blue-950">{project.title}</h3>
