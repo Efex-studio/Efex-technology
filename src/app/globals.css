@@ -85,7 +85,6 @@ html.dark {
   --font-sans: Arial, Helvetica, sans-serif;
   --font-mono: "Courier New", Courier, monospace;
 }
-}
 
 @media (prefers-color-scheme: dark) {
   :root {
