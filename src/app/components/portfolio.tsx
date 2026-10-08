@@ -152,7 +152,7 @@ export function ResumeSection(): JSX.Element {
             </ul>
 
             <div className="flex flex-wrap justify-center gap-3 md:justify-start">
-              <a href="/img/Aninweze resume.pdf" download className="rounded-md bg-blue-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors duration-200 hover:bg-blue-700">Download CV</a>
+              <a href="/Aninweze resume.pdf" download className="rounded-md bg-blue-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors duration-200 hover:bg-blue-700">Download CV</a>
               <a href="https://wa.me/+2348169910462" target="_blank" rel="noopener noreferrer" className="rounded-md bg-blue-600 px-5 py-2.5 text-sm font-semibold text-white transition-colors duration-200 hover:bg-blue-700">Hire Me</a>
             </div>
           </div>
